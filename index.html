@@ -366,7 +366,7 @@
   <nav class="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-sm shadow-sm z-50 transition-all duration-300" id="navbar">
     <div class="max-w-6xl mx-auto px-4 py-4">
       <div class="flex justify-between items-center">
-        <a href="#" class="text-xl font-bold shimmer">IrfanArsyad</a>
+        <a href="#" class="text-xl font-bold shimmer"><span class="md:hidden">IA</span><span class="hidden md:inline">IrfanArsyad</span></a>
         <div class="hidden md:flex items-center space-x-8">
           <a href="#about" class="nav-link text-gray-600 hover:text-gray-900 transition" data-i18n="nav.about">About</a>
           <a href="#skills" class="nav-link text-gray-600 hover:text-gray-900 transition" data-i18n="nav.skills">Skills</a>
@@ -727,37 +727,37 @@
                 </svg>
               </div>
               <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-2 group-hover:text-indigo-600 transition-colors">Herostack</h3>
-              <p class="text-gray-600 mb-4" data-i18n="projects.herostack.desc">Platform dokumentasi self-hosted untuk mengorganisir pengetahuan ke dalam Shelves, Books, Chapters, dan Pages dengan interface yang bersih dan modern.</p>
-              <div class="flex flex-wrap gap-2 mb-4">
-                <span class="px-3 py-1 bg-white/80 text-gray-700 text-xs font-medium rounded-full border border-gray-200">Next.js 15</span>
-                <span class="px-3 py-1 bg-white/80 text-gray-700 text-xs font-medium rounded-full border border-gray-200">TypeScript</span>
-                <span class="px-3 py-1 bg-white/80 text-gray-700 text-xs font-medium rounded-full border border-gray-200">PostgreSQL</span>
-                <span class="px-3 py-1 bg-white/80 text-gray-700 text-xs font-medium rounded-full border border-gray-200">Drizzle ORM</span>
-                <span class="px-3 py-1 bg-white/80 text-gray-700 text-xs font-medium rounded-full border border-gray-200">Auth.js v5</span>
-                <span class="px-3 py-1 bg-white/80 text-gray-700 text-xs font-medium rounded-full border border-gray-200">Tailwind CSS</span>
-                <span class="px-3 py-1 bg-white/80 text-gray-700 text-xs font-medium rounded-full border border-gray-200">TipTap Editor</span>
+              <p class="text-gray-600 mb-4 text-sm md:text-base" data-i18n="projects.herostack.desc">Platform dokumentasi self-hosted untuk mengorganisir pengetahuan ke dalam Shelves, Books, Chapters, dan Pages dengan interface yang bersih dan modern.</p>
+              <div class="flex flex-wrap gap-1.5 md:gap-2 mb-4">
+                <span class="px-2 py-1 md:px-3 bg-white/80 text-gray-700 text-[10px] md:text-xs font-medium rounded-full border border-gray-200">Next.js 15</span>
+                <span class="px-2 py-1 md:px-3 bg-white/80 text-gray-700 text-[10px] md:text-xs font-medium rounded-full border border-gray-200">TypeScript</span>
+                <span class="px-2 py-1 md:px-3 bg-white/80 text-gray-700 text-[10px] md:text-xs font-medium rounded-full border border-gray-200">PostgreSQL</span>
+                <span class="px-2 py-1 md:px-3 bg-white/80 text-gray-700 text-[10px] md:text-xs font-medium rounded-full border border-gray-200">Drizzle ORM</span>
+                <span class="px-2 py-1 md:px-3 bg-white/80 text-gray-700 text-[10px] md:text-xs font-medium rounded-full border border-gray-200">Auth.js v5</span>
+                <span class="px-2 py-1 md:px-3 bg-white/80 text-gray-700 text-[10px] md:text-xs font-medium rounded-full border border-gray-200">Tailwind CSS</span>
+                <span class="px-2 py-1 md:px-3 bg-white/80 text-gray-700 text-[10px] md:text-xs font-medium rounded-full border border-gray-200">TipTap Editor</span>
               </div>
-              <div class="flex flex-wrap gap-4 text-sm text-gray-500">
-                <span class="flex items-center gap-1">
-                  <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="grid grid-cols-2 gap-2 text-xs md:text-sm text-gray-500">
+                <span class="flex items-center gap-2">
+                  <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                   </svg>
                   <span data-i18n="projects.herostack.feature1">Rich Text Editor</span>
                 </span>
-                <span class="flex items-center gap-1">
-                  <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <span class="flex items-center gap-2">
+                  <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                   </svg>
                   <span data-i18n="projects.herostack.feature2">Full-text Search</span>
                 </span>
-                <span class="flex items-center gap-1">
-                  <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <span class="flex items-center gap-2">
+                  <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                   </svg>
                   <span data-i18n="projects.herostack.feature3">Role-based Access</span>
                 </span>
-                <span class="flex items-center gap-1">
-                  <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <span class="flex items-center gap-2">
+                  <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                   </svg>
                   <span data-i18n="projects.herostack.feature4">PDF & Markdown Export</span>
